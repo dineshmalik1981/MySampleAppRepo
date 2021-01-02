@@ -16,7 +16,7 @@ namespace MysampleWebAPIApp.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Myvalue111111", "Myvalue22222" };
+            return new string[] { "Myvalue111", "Myvalue222" };
         }
 
         // GET api/<ValuesController>/5
